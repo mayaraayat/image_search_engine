@@ -22,5 +22,6 @@ Before running the application, ensure you have the following dependencies insta
 ## Additional Information
 
 The images_folder variable in the code should be set to the path of the folder containing your image dataset.
+Here we use a dataset available on Kaggle.
 The pre-trained ResNet-50 model is used for feature extraction from images.
 Annoy is used for efficient approximate nearest neighbor search based on the extracted features.
